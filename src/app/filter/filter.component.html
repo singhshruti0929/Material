@@ -1,0 +1,21 @@
+<button mat-stroked-button color="accent" style="margin-top:20px; margin-right: 10px" (click)="addStudent()">Student List</button>
+
+<button mat-stroked-button color="accent" (click)="goToTeacher()">Teachers List</button>
+
+<!-- <mat-form-field class="example-chip-list" appearance="fill">
+  <mat-label>Favorite Subject</mat-label>
+  <mat-chip-list #chipList aria-label="Subject selection">
+    <mat-chip *ngFor="let subject of subjects" (removed)="remove(subject)">
+      {{subject.name}}
+      <button matChipRemove>
+        <mat-icon>cancel</mat-icon>
+      </button>
+    </mat-chip>
+    <input placeholder=" Subject..."
+           [matChipInputFor]="chipList"
+           [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+           [matChipInputAddOnBlur]="addOnBlur"
+           (matChipInputTokenEnd)="add($event)">
+  </mat-chip-list>
+</mat-form-field>
+ -->
